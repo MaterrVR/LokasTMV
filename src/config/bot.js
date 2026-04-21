@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Offical Bot Made And Coded By DEVOTE",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 5, 
       },
     ],
   },
@@ -88,7 +88,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
+      primary: "#9B111E", 
       secondary: "#2F3136", 
 
       // Standard status colors for success/error/warning/info messages.
@@ -156,11 +156,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "crypto",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "crypto",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "₿",
     },
 
     // Starting balance for new users.
