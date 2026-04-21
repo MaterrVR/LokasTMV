@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Offical Bot Made And Coded By DEVOTE",
+        name: "Offical Bot Made By DEVOTE",
         // Activity type number (0 = Playing).
         type: 5, 
       },
@@ -158,7 +158,7 @@ export const botConfig = {
       // Currency display name.
       name: "crypto",
       // Plural display name.
-      namePlural: "crypto",
+      namePlural: "crypto coins",
       // Currency symbol shown in balances.
       symbol: "₿",
     },
@@ -167,25 +167,25 @@ export const botConfig = {
     startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 300000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 500,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 50,
+    workMax: 500,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 15,
+    begMax: 80,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.6,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
-    robFailJailTime: 3600000, 
+    robFailJailTime: 1300000, 
   },
 
   // =========================
